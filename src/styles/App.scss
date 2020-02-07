@@ -806,6 +806,9 @@ span.tim19 {
     }
 }
 @media screen and (max-width: 560px) {
+    .tim50 {
+        max-width: 100%!important;
+    }
     .tim59 {
         flex-direction: column;
         align-items: center;
