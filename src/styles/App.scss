@@ -782,9 +782,6 @@ span.tim19 {
     }
     .tim49 {
         flex-direction: column;
-        .tim50 {
-            max-width: 68%!important;
-        }
         .tim59 {
             width: 68%!important;
         }
@@ -803,6 +800,11 @@ span.tim19 {
         .tim89:nth-child(3) {
             grid-area: span 3 / span 3 / span 3 / span 3;
         }
+    }
+}
+@media screen and (min-width: 560px) and (max-width: 950px) {
+    .tim50 {
+        max-width: 68%!important;
     }
 }
 @media screen and (max-width: 560px) {
