@@ -27,8 +27,8 @@ class Main extends React.Component {
         super(props);
         this.state = {
             followList: [0, 1, 2],
-            followContent: ["fab fa-linkedin", "fab fa-twitter", "fab fa-github"],
-            followLinks: ["https://www.linkedin.com/in/thanhdanhnguyen", "https://twitter.com/devtiim", "https://github.com/danhthanhnguyen"],
+            followContent: ["fab fa-linkedin", "fab fa-github", "fab fa-twitter"],
+            followLinks: ["https://www.linkedin.com/in/thanhdanhnguyen", "https://github.com/danhthanhnguyen", "https://twitter.com/devtiim"],
             languagesList: [0, 1, 2, 3, 4],
             languagesLogo: ["tim69 fab fa-js", "tim69 fab fa-python", "tim69 fab fa-java", "tim69 fab fa-html5", "tim69 fab fa-css3-alt"],
             languages: ["JavaScript", "Python", "Java", "HTML5", "CSS3"],
