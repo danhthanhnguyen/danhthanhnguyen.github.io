@@ -8,7 +8,7 @@ class Header extends React.Component {
             menuContent: ['About', 'Portfolio', 'Contact', 'Resume', 'Code'],
             followList: [0, 1, 2],
             followContent: ["fab fa-facebook", "fab fa-twitter", "fab fa-github"],
-            followLinks: ["https://www.facebook.com/Mrthanhdanhnguyen", "https://twitter.com/devtiim", "https://github.com/danhthanhnguyen"],
+            followLinks: ["https://www.facebook.com/Mrthanhdanhnguyen", "https://twitter.com/tthanhnguyenn", "https://github.com/danhthanhnguyen"],
             connect: ["#about", "#portfolio", "#contact", "#resume", "#code"]
         }
     }
