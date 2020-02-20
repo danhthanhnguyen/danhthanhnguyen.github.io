@@ -545,8 +545,8 @@ body {
                                     max-width: 100%;
                                     height: auto;
                                     position: relative;
-                                    background-color: rgba(41, 45, 62, 0.75);
-                                    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.35);
+                                    background-color: rgba(40, 42, 54, .9);
+                                    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.65), 0px 6px 20px rgba(0, 0, 0, 0.55);
                                     border-radius: 10px;
                                     transition: all .3s ease-in-out;
                                     cursor: pointer;
@@ -821,6 +821,6 @@ span.tim19 {
         font-size: 34px!important;
     }
     .tim87 {
-        font-size: 16px!important;
+        font-size: 15px!important;
     }
 }
