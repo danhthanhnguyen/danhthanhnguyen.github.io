@@ -26,15 +26,12 @@ class Main extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            followList: [0, 1, 2],
             followContent: ["fab fa-linkedin", "fab fa-github", "fab fa-twitter"],
-            followLinks: ["https://www.linkedin.com/in/thanhdanhnguyen", "https://github.com/danhthanhnguyen", "https://twitter.com/devtiim"],
-            languagesList: [0, 1, 2, 3, 4],
+            followLinks: ["https://www.linkedin.com/in/thanhdanhnguyen", "https://github.com/danhthanhnguyen", "https://twitter.com/tthanhnguyenn"],
             languagesLogo: ["tim69 fab fa-js", "tim69 fab fa-python", "tim69 fab fa-java", "tim69 fab fa-html5", "tim69 fab fa-css3-alt"],
             languages: ["JavaScript", "Python", "Java", "HTML5", "CSS3"],
-            toolsList: [0, 1, 2, 3, 4, 5],
-            toolsLogo: ["tim80 fab fa-github", "tim80 fab fa-react", "tim80 fab fa-bootstrap", "tim80 fab fa-node-js", "tim80 fab fa-adobe", "tim80 fab fa-figma"],
-            tools: ["Github", "React Js", "Bootstrap", "Node Js", "Adobe", "Figma"],
+            toolsLogo: ["tim80 fab fa-github", "tim80 fab fa-react", "tim80 fab fa-angular", "tim80 fab fa-bootstrap", "tim80 fab fa-node-js", "tim80 fab fa-adobe"],
+            tools: ["Github", "React Js", "Angular", "Bootstrap", "Node Js", "Adobe"],
             //list contact
             image: [avatar, img1, img2],
             name: ["Dev Tim", "Thanh Danh", "Ng D Thanh"],
@@ -68,12 +65,12 @@ class Main extends React.Component {
         }
     }
     render() {
-        const follow = this.state.followList.map((items) =>
-        <li key={items.toString()} className="tim42 tim44"><a href={this.state.followLinks[items]} target="_blank" rel="noopener noreferrer"><i className={this.state.followContent[items]}></i></a><span className="tim43 tim45"></span></li>);
-        const programLanguages = this.state.languagesList.map((items) =>
-        <li key={items.toString()} className="tim68"><i className={this.state.languagesLogo[items]}></i><span className="tim70">{this.state.languages[items]}</span></li>);
-        const toolsFrameworks = this.state.toolsList.map((items) =>
-        <li key={items.toString()} className="tim79"><i className={this.state.toolsLogo[items]}></i><span className="tim81">{this.state.tools[items]}</span></li>);
+        const follow = this.state.followContent.map((value, index) =>
+        <li key={index.toString()} className="tim42 tim44"><a href={this.state.followLinks[index]} target="_blank" rel="noopener noreferrer"><i className={value}></i></a><span className="tim43 tim45"></span></li>);
+        const programLanguages = this.state.languagesLogo.map((value, index) =>
+        <li key={index.toString()} className="tim68"><i className={value}></i><span className="tim70">{this.state.languages[index]}</span></li>);
+        const toolsFrameworks = this.state.toolsLogo.map((value, index) =>
+        <li key={index.toString()} className="tim79"><i className={value}></i><span className="tim81">{this.state.tools[index]}</span></li>);
         return (
             <section className="tim28">
                 <div className="tim29">
@@ -196,5 +193,4 @@ class Main extends React.Component {
         );
     }
 }
-
 export default Main;
