@@ -96,7 +96,7 @@ class Header extends React.Component {
             <div className="tim1">
                 <div className="tim2">
                     <button className="tim3 tim17">
-                        <span className="tim4">Dev Tim</span>
+                        <span className="tim4">Thanh</span>
                         <span className="tim5 tim18"></span>
                     </button>
                 </div>
