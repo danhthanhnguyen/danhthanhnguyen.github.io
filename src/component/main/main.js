@@ -34,9 +34,9 @@ class Main extends React.Component {
             tools: ["Github", "React Js", "Angular", "Bootstrap", "Node Js", "Adobe"],
             //list contact
             image: [avatar, img1, img2],
-            name: ["Dev Tim", "Thanh Danh", "Ng D Thanh"],
+            name: ["Thanh", "Thanh Danh", "Ng D Thanh"],
             jobs: ["Lead Designer", "Lead Marketer", "Lead Developer"],
-            description: ["Not sure why we have 2 other Danh Thanh in my team.", "If I was good at marketing, I wouldn't be in this team.", "Backend, Front-end, FullStack. I can do everything!"]
+            description: ["Not sure why we have 2 other Thanh in my team.", "If I was good at marketing, I wouldn't be in this team.", "Backend, Front-end, FullStack. I can do everything!"]
         }
     }
     componentDidMount() {
@@ -83,7 +83,7 @@ class Main extends React.Component {
                             <div className="tim35">
                                 <div className="tim36">
                                     <h1 className="tim37">
-                                        Dev Tim
+                                        Thanh
                                     </h1>
                                     <h3 className="tim38">
                                         Web Developer
