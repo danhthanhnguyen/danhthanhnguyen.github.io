@@ -348,6 +348,7 @@ body {
 .App .App-main .tim28 .tim29 .tim30 {
   width: 100%;
   height: 400px;
+  position: relative;
   background-image: url("../image/logo.jpg");
   background-position: bottom center;
   background-size: cover;
