@@ -4,10 +4,10 @@ class Header extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            menuContent: ['About', 'Portfolio', 'Contact', 'Resume', 'Code'],
+            menuContent: ['About', 'Portfolio', 'Resume', 'Partners', 'Contact'],
             followContent: ["fab fa-linkedin", "fab fa-github", "fab fa-twitter"],
             followLinks: ["https://www.linkedin.com/in/thanhdanhnguyen", "https://github.com/danhthanhnguyen", "https://twitter.com/tthanhnguyenn"],
-            connect: ["#about", "#portfolio", "#contact", "#resume", "#code"]
+            connect: ["#about", "#portfolio", "#resume", "#partners", "#contact"]
         }
     }
     componentDidMount() {
@@ -32,7 +32,7 @@ class Header extends React.Component {
         const menuItems = document.querySelectorAll('.scroll');
         function getScrollTopByHref(element) {
             const id = element.getAttribute('href');
-            return document.querySelector(id).offsetTop;
+            return document.querySelector(id).offsetTop - 48;
         }
         function scrollToPosition(to) {
             smoothScrollTo(0, to);
@@ -42,16 +42,9 @@ class Header extends React.Component {
             const to = getScrollTopByHref(event.currentTarget);
             scrollToPosition(to);
         }
-        for (let item = 0; item < menuItems.length; item++) {
-            //resume, code on click
-            if (item > 2) {
-                menuItems[item].addEventListener('click', function(event) {
-                    event.preventDefault();
-                });
-            } else {//about, portfolio and contact on click
-                menuItems[item].addEventListener('click', scrollToIdOnClick);
-            }
-        }
+        menuItems.forEach(elements => {
+            elements.addEventListener('click', scrollToIdOnClick);
+        });
         function smoothScrollTo(endX, endY, duration) {
             const startX = window.scrollX || window.pageXOffset;
             const startY = window.scrollY || window.pageYOffset;

@@ -26,15 +26,6 @@ class Footer extends React.Component {
                         {contactMe}
                     </div>
                 </div>
-                <div className="tim113">
-                    <b className="tim114">
-                        NOTE:
-                    </b>
-                    <small className="tim115">
-                        This website is designed based on
-                        <a className="tim116" href="https://lnmai.com" target="_blank" rel="noopener noreferrer">lnmai.com</a>
-                    </small>
-                </div>
             </div>
         );
     }

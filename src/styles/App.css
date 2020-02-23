@@ -5,6 +5,11 @@
   font-family: 'cubano-regular';
 }
 
+@font-face {
+  src: url("../font/Sofia-pro/Fonts/sofiapro-light.otf");
+  font-family: 'sofia-pro';
+}
+
 ::-webkit-scrollbar {
   width: 5px;
   height: 100vh;
@@ -83,10 +88,19 @@
   pointer-events: none;
 }
 
-.App .App-main .tim28 .tim29 .tim31 .tim32 .tim49 .tim50 .tim52 .tim53, .App .App-main .tim28 .tim29 .tim82 .tim83 .tim84 .tim85 .tim86 {
-  font-family: 'Roboto Slab', serif;
+.App .App-main .tim28 .tim29 .tim31 .tim32 .tim49 .tim50 .tim52 .tim53, .App .App-main .tim28 .tim29 .tim117 .tim118 .tim119 .tim120 .tim121 .tim122 .tim123, .App .App-main .tim28 .tim29 .tim117 .tim118 .tim119 .tim120 .tim121 .tim125 .tim123, .App .App-main .tim28 .tim29 .tim117 .tim118 .tim119 .tim120 .tim124 .tim122 .tim123, .App .App-main .tim28 .tim29 .tim117 .tim118 .tim119 .tim120 .tim124 .tim125 .tim123, .App .App-main .tim28 .tim29 .tim146 .tim147 .tim148 .partner-heading .content-heading, .App .App-main .tim28 .tim29 .tim82 .tim83 .tim84 .tim85 .tim86 {
+  font-family: 'cubano-regular';
   font-weight: 900;
   font-size: 48px;
+}
+
+.App .App-main .tim28 .tim29 .tim31, .App .App-main .tim28 .tim29 .tim117, .App .App-main .tim28 .tim29 .tim146, .App .App-main .tim28 .tim29 .tim82 {
+  width: 95%;
+  height: auto;
+  position: relative;
+  -webkit-box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.35);
+          box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
 }
 
 html {
@@ -155,7 +169,7 @@ body {
 .App .App-header .tim1 .tim2 .tim3 .tim4 {
   letter-spacing: 2px;
   font-family: 'cubano-regular';
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
   color: #fff;
 }
@@ -206,7 +220,7 @@ body {
 .App .App-header .tim1 .tim20 .tim6 .tim7 .tim8 .tim9 a .tim10 {
   font-family: 'cubano-regular';
   font-weight: 400;
-  font-size: 13px;
+  font-size: 14px;
   color: #FFFFFF;
   line-height: 48px;
 }
@@ -343,13 +357,7 @@ body {
 }
 
 .App .App-main .tim28 .tim29 .tim31 {
-  width: 95%;
-  height: auto;
-  position: relative;
   background-color: #292D3E;
-  -webkit-box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.35);
-          box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.35);
-  border-radius: 10px;
   margin: -70px auto 0px;
 }
 
@@ -403,7 +411,7 @@ body {
 }
 
 .App .App-main .tim28 .tim29 .tim31 .tim32 .tim35 .tim36 .tim37 {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'cubano-regular';
   font-size: 60px;
   margin: 80px 0px 0px;
 }
@@ -553,6 +561,7 @@ body {
   font-size: 16px;
   margin: 10px 0px;
   color: #707070;
+  line-height: 25px;
 }
 
 .App .App-main .tim28 .tim29 .tim31 .tim32 .tim49 .tim50 .tim52 .tim54 b {
@@ -650,14 +659,376 @@ body {
   margin-left: 10px;
 }
 
-.App .App-main .tim28 .tim29 .tim82 {
-  width: 95%;
-  height: auto;
+.App .App-main .tim28 .tim29 .tim117 {
+  background-color: #292D3E;
   margin: 10px auto;
+  overflow: hidden;
+}
+
+.App .App-main .tim28 .tim29 .tim117 .tim118 {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.App .App-main .tim28 .tim29 .tim117 .tim118 .tim119 {
+  width: 100%;
+  height: 90%;
+}
+
+.App .App-main .tim28 .tim29 .tim117 .tim118 .tim119 .tim120 {
+  height: auto;
+  background-color: #3c4858;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.App .App-main .tim28 .tim29 .tim117 .tim118 .tim119 .tim120 .tim121, .App .App-main .tim28 .tim29 .tim117 .tim118 .tim119 .tim120 .tim124 {
+  width: 45%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 35px 0px;
+}
+
+.App .App-main .tim28 .tim29 .tim117 .tim118 .tim119 .tim120 .tim121 .tim122, .App .App-main .tim28 .tim29 .tim117 .tim118 .tim119 .tim120 .tim121 .tim125, .App .App-main .tim28 .tim29 .tim117 .tim118 .tim119 .tim120 .tim124 .tim122, .App .App-main .tim28 .tim29 .tim117 .tim118 .tim119 .tim120 .tim124 .tim125 {
+  max-width: 90%;
+}
+
+.App .App-main .tim28 .tim29 .tim117 .tim118 .tim119 .tim120 .tim121 .tim122 .tim123, .App .App-main .tim28 .tim29 .tim117 .tim118 .tim119 .tim120 .tim121 .tim125 .tim123, .App .App-main .tim28 .tim29 .tim117 .tim118 .tim119 .tim120 .tim124 .tim122 .tim123, .App .App-main .tim28 .tim29 .tim117 .tim118 .tim119 .tim120 .tim124 .tim125 .tim123 {
+  color: #000000;
+  border-bottom: 1px solid #000000;
+}
+
+.App .App-main .tim28 .tim29 .tim117 .tim118 .tim119 .tim120 .tim121 .tim122 .tim126, .App .App-main .tim28 .tim29 .tim117 .tim118 .tim119 .tim120 .tim121 .tim125 .tim126, .App .App-main .tim28 .tim29 .tim117 .tim118 .tim119 .tim120 .tim124 .tim122 .tim126, .App .App-main .tim28 .tim29 .tim117 .tim118 .tim119 .tim120 .tim124 .tim125 .tim126 {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.App .App-main .tim28 .tim29 .tim117 .tim118 .tim119 .tim120 .tim121 .tim122 .tim126 .tim127, .App .App-main .tim28 .tim29 .tim117 .tim118 .tim119 .tim120 .tim121 .tim125 .tim126 .tim127, .App .App-main .tim28 .tim29 .tim117 .tim118 .tim119 .tim120 .tim124 .tim122 .tim126 .tim127, .App .App-main .tim28 .tim29 .tim117 .tim118 .tim119 .tim120 .tim124 .tim125 .tim126 .tim127 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: right;
+  margin: 5px 0px;
+}
+
+.App .App-main .tim28 .tim29 .tim117 .tim118 .tim119 .tim120 .tim121 .tim122 .tim126 .tim127 .tim128, .App .App-main .tim28 .tim29 .tim117 .tim118 .tim119 .tim120 .tim121 .tim125 .tim126 .tim127 .tim128, .App .App-main .tim28 .tim29 .tim117 .tim118 .tim119 .tim120 .tim124 .tim122 .tim126 .tim127 .tim128, .App .App-main .tim28 .tim29 .tim117 .tim118 .tim119 .tim120 .tim124 .tim125 .tim126 .tim127 .tim128 {
+  color: #08090e;
+  font-size: 14px;
+  font-family: 'sofia-pro';
+}
+
+.App .App-main .tim28 .tim29 .tim117 .tim118 .tim119 .tim120 .tim121 .tim122 .tim126 .tim127 .iconAddress, .App .App-main .tim28 .tim29 .tim117 .tim118 .tim119 .tim120 .tim121 .tim125 .tim126 .tim127 .iconAddress, .App .App-main .tim28 .tim29 .tim117 .tim118 .tim119 .tim120 .tim124 .tim122 .tim126 .tim127 .iconAddress, .App .App-main .tim28 .tim29 .tim117 .tim118 .tim119 .tim120 .tim124 .tim125 .tim126 .tim127 .iconAddress {
+  color: #39124C;
+  padding: 0px 5px;
+}
+
+.App .App-main .tim28 .tim29 .tim117 .tim118 .tim119 .tim129 {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.App .App-main .tim28 .tim29 .tim117 .tim118 .tim119 .tim129 .tim130 {
+  width: 90%;
+  height: 100%;
+  margin: 60px 0px;
+}
+
+.App .App-main .tim28 .tim29 .tim117 .tim118 .tim119 .tim129 .tim130 .tim131 {
+  max-width: 950px;
+  text-align: left;
+}
+
+.App .App-main .tim28 .tim29 .tim117 .tim118 .tim119 .tim129 .tim130 .tim131 .tim132 {
+  height: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.App .App-main .tim28 .tim29 .tim117 .tim118 .tim119 .tim129 .tim130 .tim131 .tim132 .tim133 {
+  height: 100%;
+  width: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(0, 0, 0, 0.08);
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.App .App-main .tim28 .tim29 .tim117 .tim118 .tim119 .tim129 .tim130 .tim131 .tim132 .tim133 .tim134 {
+  font-size: 20px;
+  color: #39124C;
+}
+
+.App .App-main .tim28 .tim29 .tim117 .tim118 .tim119 .tim129 .tim130 .tim131 .tim132 .tim135 {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.App .App-main .tim28 .tim29 .tim117 .tim118 .tim119 .tim129 .tim130 .tim131 .tim132 .tim135 .tim136 {
+  font-size: 20px;
+  font-family: 'cubano-regular';
+}
+
+.App .App-main .tim28 .tim29 .tim117 .tim118 .tim119 .tim129 .tim130 .tim131 .tim137 {
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.App .App-main .tim28 .tim29 .tim117 .tim118 .tim119 .tim129 .tim130 .tim131 .tim137 .tim138 {
+  width: calc(100% - 58px);
+  height: 100%;
+}
+
+.App .App-main .tim28 .tim29 .tim117 .tim118 .tim119 .tim129 .tim130 .tim131 .tim137 .tim138 .tim139 .tim140 {
+  max-width: 560px;
+  border-bottom: 1px solid #3c4858;
+}
+
+.App .App-main .tim28 .tim29 .tim117 .tim118 .tim119 .tim129 .tim130 .tim131 .tim137 .tim138 .tim139 .tim140 .tim141 {
+  font-size: 17px;
+  color: #3c4858;
+  font-family: 'Roboto Slab', sans-serif;
+  margin: 10px 0px;
+}
+
+.App .App-main .tim28 .tim29 .tim117 .tim118 .tim119 .tim129 .tim130 .tim131 .tim137 .tim138 .tim139 .tim142 .tim143 {
+  font-size: 15px;
+  color: #858585;
+  margin: 0;
+}
+
+.App .App-main .tim28 .tim29 .tim117 .tim118 .tim119 .tim129 .tim130 .tim131 .tim137 .tim138 .tim139 .tim142 .tim143 .tim144 {
+  margin: 5px 0px;
+  font-family: 'sofia-pro';
+}
+
+.App .App-main .tim28 .tim29 .tim146 {
+  background-color: #292d3e;
+  margin: 0px auto 10px;
+  overflow: hidden;
+}
+
+.App .App-main .tim28 .tim29 .tim146 .tim147 {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.App .App-main .tim28 .tim29 .tim146 .tim147 .tim148 {
+  width: 90%;
+  height: 100%;
+  margin: 30px 0px;
+}
+
+.App .App-main .tim28 .tim29 .tim146 .tim147 .tim148 .partner-heading {
+  margin: 50px 0px;
+  text-align: center;
+}
+
+.App .App-main .tim28 .tim29 .tim146 .tim147 .tim148 .partner-heading .content-heading {
+  font-size: 58px;
+  color: #3c4858;
+  margin: 0;
+}
+
+.App .App-main .tim28 .tim29 .tim146 .tim147 .tim148 .tim149 {
+  width: 100%;
+  height: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  grid-column-gap: 5%;
+}
+
+.App .App-main .tim28 .tim29 .tim146 .tim147 .tim148 .tim149 .tim150 {
+  width: 100%;
+  height: auto;
   position: relative;
-  border-radius: 10px;
-  -webkit-box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.35);
-          box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.35);
+}
+
+.App .App-main .tim28 .tim29 .tim146 .tim147 .tim148 .tim149 .tim150 .tim151 {
+  width: 160px;
+  height: 160px;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 8px 15px -8px rgba(0, 0, 0, 0.24), 0 12px 10px -5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 15px -8px rgba(0, 0, 0, 0.24), 0 12px 10px -5px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.App .App-main .tim28 .tim29 .tim146 .tim147 .tim148 .tim149 .tim150 .tim151 .tim152 {
+  text-decoration: none;
+}
+
+.App .App-main .tim28 .tim29 .tim146 .tim147 .tim148 .tim149 .tim150 .tim151 .tim152 .tim153 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.App .App-main .tim28 .tim29 .tim146 .tim147 .tim148 .tim149 .tim150 .tim151::after {
+  content: '';
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.28);
+  top: 0;
+  left: -320px;
+  opacity: 0;
+  -webkit-filter: blur(30px);
+          filter: blur(30px);
+  -webkit-transform: translate(0px, 0px) skewX(-15deg);
+          transform: translate(0px, 0px) skewX(-15deg);
+  -webkit-transition: all 0.6s cubic-bezier(0.24, 0.69, 0.57, 0.95);
+  transition: all 0.6s cubic-bezier(0.24, 0.69, 0.57, 0.95);
+  cursor: pointer;
+}
+
+.App .App-main .tim28 .tim29 .tim146 .tim147 .tim148 .tim149 .tim150 .tim151::before {
+  content: '';
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.28);
+  top: 0;
+  left: -160px;
+  opacity: 0;
+  -webkit-filter: blur(30px);
+          filter: blur(30px);
+  -webkit-transform: translate(0px, 0px) skewX(15deg);
+          transform: translate(0px, 0px) skewX(15deg);
+  -webkit-transition: all 0.6s cubic-bezier(0.24, 0.69, 0.57, 0.95);
+  transition: all 0.6s cubic-bezier(0.24, 0.69, 0.57, 0.95);
+  cursor: pointer;
+}
+
+.App .App-main .tim28 .tim29 .tim146 .tim147 .tim148 .tim149 .tim150 .tim151:hover::after {
+  -webkit-transform: translate(480px, 0px) skewX(-15deg);
+          transform: translate(480px, 0px) skewX(-15deg);
+  opacity: 1;
+}
+
+.App .App-main .tim28 .tim29 .tim146 .tim147 .tim148 .tim149 .tim150 .tim151:hover::before {
+  -webkit-transform: translate(480px, 0px) skewX(-15deg);
+          transform: translate(480px, 0px) skewX(-15deg);
+  opacity: .6;
+}
+
+.App .App-main .tim28 .tim29 .tim146 .tim147 .tim148 .tim149 .tim150 .tim154 {
+  width: 100%;
+  height: 100%;
+}
+
+.App .App-main .tim28 .tim29 .tim146 .tim147 .tim148 .tim149 .tim150 .tim154 .tim155 {
+  width: 85%;
+  margin: 0 auto;
+  padding: 0px 0px 100px;
+}
+
+.App .App-main .tim28 .tim29 .tim146 .tim147 .tim148 .tim149 .tim150 .tim154 .tim155 .tim156 .tim157 {
+  font-family: 'cubano-regular';
+  color: #3c4858;
+  font-size: 22px;
+}
+
+.App .App-main .tim28 .tim29 .tim146 .tim147 .tim148 .tim149 .tim150 .tim154 .tim155 .tim158 .tim159 {
+  font-family: 'sofia-pro';
+  color: #858585;
+  font-size: 17px;
+}
+
+.App .App-main .tim28 .tim29 .tim82 {
+  margin: 0px auto 10px;
   overflow: hidden;
 }
 
@@ -752,7 +1123,7 @@ body {
 
 .App .App-main .tim28 .tim29 .tim82 .tim83 .tim84 .tim88 .tim89 .tim92 {
   width: 100%;
-  height: calc(100% - 60px);
+  height: auto;
   margin: 20px 0px;
 }
 
@@ -880,31 +1251,6 @@ body {
   font-family: "Roboto", serif;
   font-size: 17px;
   color: #4A4A4A;
-}
-
-.App .App-main .tim28 .tim29 .tim97 .App-footer .tim98 .tim113 {
-  text-align: left;
-  margin: 20px 0px 0px;
-}
-
-.App .App-main .tim28 .tim29 .tim97 .App-footer .tim98 .tim113 .tim114 {
-  font-family: "Roboto Slab", "Times New Roman", serif;
-  color: #777;
-  font-size: 18px;
-}
-
-.App .App-main .tim28 .tim29 .tim97 .App-footer .tim98 .tim113 .tim115 {
-  font-family: "Roboto", serif;
-  color: #4A4A4A;
-  font-size: 17px;
-  padding-left: 5px;
-}
-
-.App .App-main .tim28 .tim29 .tim97 .App-footer .tim98 .tim113 .tim115 .tim116 {
-  font-family: "Roboto Slab", serif;
-  text-decoration: none;
-  color: #9c27b0;
-  padding-left: 5px;
 }
 
 span.tim19 {
@@ -1042,6 +1388,45 @@ span.tim19 {
   .tim88 .tim89:nth-child(3) {
     grid-area: span 3 / span 3 / span 3 / span 3;
   }
+  .tim120 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .tim120 .tim121, .tim120 .tim124 {
+    width: 90% !important;
+    -webkit-box-pack: end !important;
+        -ms-flex-pack: end !important;
+            justify-content: flex-end !important;
+    -webkit-box-align: end !important;
+        -ms-flex-align: end !important;
+            align-items: flex-end !important;
+  }
+  .tim149 {
+    grid-column-gap: 0% !important;
+  }
+  .tim149 .tim150 {
+    margin: 20px 0px;
+  }
+  .tim149 .tim150:nth-child(1) {
+    grid-area: span 1 / span 3 / span 1 / span 3;
+  }
+  .tim149 .tim150:nth-child(2) {
+    grid-area: span 2 / span 3 / span 2 / span 3;
+  }
+  .tim149 .tim150:nth-child(3) {
+    grid-area: span 3 / span 3 / span 3 / span 3;
+  }
+  .tim149 .tim150:nth-child(4) {
+    grid-area: span 4 / span 3 / span 4 / span 3;
+  }
+  .tim149 .tim150:nth-child(5) {
+    grid-area: span 5 / span 3 / span 5 / span 3;
+  }
+  .tim149 .tim150:nth-child(6) {
+    grid-area: span 6 / span 3 / span 6 / span 3;
+  }
 }
 
 @media screen and (min-width: 560px) and (max-width: 950px) {
@@ -1083,6 +1468,9 @@ span.tim19 {
   }
   .tim112 {
     font-size: 15px !important;
+  }
+  .content-heading {
+    font-size: 40px !important;
   }
 }
 /*# sourceMappingURL=App.css.map */

@@ -1,5 +1,7 @@
 import React from 'react';
 import avatar from '../../image/avatar.jpg';
+import Resume from './resume.js';
+import Partners from './partners.js';
 import img1 from '../../image/img1.jpg';
 import img2 from '../../image/img2.jpg';
 import Footer from '../../component/footer/footer.js';
@@ -166,6 +168,16 @@ class Main extends React.Component {
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                    <div id="resume" className="tim117">
+                        <div className="tim118">
+                            <Resume/>
+                        </div>
+                    </div>
+                    <div id="partners" className="tim146">
+                        <div className="tim147">
+                            <Partners/>
                         </div>
                     </div>
                     <div id="contact" className="tim82">
