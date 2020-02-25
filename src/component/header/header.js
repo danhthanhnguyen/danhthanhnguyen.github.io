@@ -32,7 +32,8 @@ class Header extends React.Component {
         const menuItems = document.querySelectorAll('.scroll');
         function getScrollTopByHref(element) {
             const id = element.getAttribute('href');
-            return document.querySelector(id).offsetTop - 48;
+            let pixels = document.querySelector(id).offsetTop;
+            return (pixels > 0) ? (pixels - 48) : (pixels);
         }
         function scrollToPosition(to) {
             smoothScrollTo(0, to);
