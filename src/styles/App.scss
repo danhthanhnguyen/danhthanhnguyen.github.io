@@ -678,6 +678,7 @@ body {
                                     width: 100%;
                                     height: auto;
                                     position: relative;
+                                    overflow: hidden;
                                     .tim151 {
                                         width: 160px;
                                         height: 160px;
@@ -696,22 +697,7 @@ body {
                                         }
                                         &::after {
                                             content: '';
-                                            width: 160px;
-                                            height: 160px;
-                                            position: absolute;
-                                            display: block;
-                                            background-color: rgba(0, 0, 0, .28);
-                                            top: 0;
-                                            left: -320px;
-                                            opacity: 0;
-                                            filter: blur(30px);
-                                            transform: translate(0px, 0px) skewX(-15deg);
-                                            transition: all .6s cubic-bezier(0.24, 0.69, 0.57, 0.95);
-                                            cursor: pointer;
-                                        }
-                                        &::before {
-                                            content: '';
-                                            width: 160px;
+                                            width: 80px;
                                             height: 160px;
                                             position: absolute;
                                             display: block;
@@ -720,17 +706,32 @@ body {
                                             left: -160px;
                                             opacity: 0;
                                             filter: blur(30px);
+                                            transform: translate(0px, 0px) skewX(-15deg);
+                                            cursor: pointer;
+                                        }
+                                        &::before {
+                                            content: '';
+                                            width: 80px;
+                                            height: 160px;
+                                            position: absolute;
+                                            display: block;
+                                            background-color: rgba(0, 0, 0, .28);
+                                            top: 0;
+                                            left: -80px;
+                                            opacity: 0;
+                                            filter: blur(30px);
                                             transform: translate(0px, 0px) skewX(15deg);
-                                            transition: all .6s cubic-bezier(0.24, 0.69, 0.57, 0.95);
                                             cursor: pointer;
                                         }
                                         &:hover::after {
-                                            transform: translate(480px, 0px) skewX(-15deg);
+                                            transform: translate(400px, 0px) skewX(-15deg);
                                             opacity: 1;
+                                            transition: all .6s cubic-bezier(0.24, 0.69, 0.57, 0.95);
                                         }
                                         &:hover::before {
-                                            transform: translate(480px, 0px) skewX(-15deg);
+                                            transform: translate(400px, 0px) skewX(-15deg);
                                             opacity: .6;
+                                            transition: all .6s cubic-bezier(0.24, 0.69, 0.57, 0.95);
                                         }
                                     }
                                     .tim154 {
@@ -815,6 +816,7 @@ body {
                                     box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.45), 0px 6px 20px rgba(0, 0, 0, 0.4);
                                     border-radius: 10px;
                                     transition: all .3s ease-in-out;
+                                    overflow: hidden;
                                     cursor: pointer;
                                     .tim90 {
                                         width: 120px;

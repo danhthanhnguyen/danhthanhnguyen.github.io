@@ -932,6 +932,7 @@ body {
   width: 100%;
   height: auto;
   position: relative;
+  overflow: hidden;
 }
 
 .App .App-main .tim28 .tim29 .tim146 .tim147 .tim148 .tim149 .tim150 .tim151 {
@@ -957,26 +958,7 @@ body {
 
 .App .App-main .tim28 .tim29 .tim146 .tim147 .tim148 .tim149 .tim150 .tim151::after {
   content: '';
-  width: 160px;
-  height: 160px;
-  position: absolute;
-  display: block;
-  background-color: rgba(0, 0, 0, 0.28);
-  top: 0;
-  left: -320px;
-  opacity: 0;
-  -webkit-filter: blur(30px);
-          filter: blur(30px);
-  -webkit-transform: translate(0px, 0px) skewX(-15deg);
-          transform: translate(0px, 0px) skewX(-15deg);
-  -webkit-transition: all 0.6s cubic-bezier(0.24, 0.69, 0.57, 0.95);
-  transition: all 0.6s cubic-bezier(0.24, 0.69, 0.57, 0.95);
-  cursor: pointer;
-}
-
-.App .App-main .tim28 .tim29 .tim146 .tim147 .tim148 .tim149 .tim150 .tim151::before {
-  content: '';
-  width: 160px;
+  width: 80px;
   height: 160px;
   position: absolute;
   display: block;
@@ -986,23 +968,42 @@ body {
   opacity: 0;
   -webkit-filter: blur(30px);
           filter: blur(30px);
+  -webkit-transform: translate(0px, 0px) skewX(-15deg);
+          transform: translate(0px, 0px) skewX(-15deg);
+  cursor: pointer;
+}
+
+.App .App-main .tim28 .tim29 .tim146 .tim147 .tim148 .tim149 .tim150 .tim151::before {
+  content: '';
+  width: 80px;
+  height: 160px;
+  position: absolute;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.28);
+  top: 0;
+  left: -80px;
+  opacity: 0;
+  -webkit-filter: blur(30px);
+          filter: blur(30px);
   -webkit-transform: translate(0px, 0px) skewX(15deg);
           transform: translate(0px, 0px) skewX(15deg);
-  -webkit-transition: all 0.6s cubic-bezier(0.24, 0.69, 0.57, 0.95);
-  transition: all 0.6s cubic-bezier(0.24, 0.69, 0.57, 0.95);
   cursor: pointer;
 }
 
 .App .App-main .tim28 .tim29 .tim146 .tim147 .tim148 .tim149 .tim150 .tim151:hover::after {
-  -webkit-transform: translate(480px, 0px) skewX(-15deg);
-          transform: translate(480px, 0px) skewX(-15deg);
+  -webkit-transform: translate(400px, 0px) skewX(-15deg);
+          transform: translate(400px, 0px) skewX(-15deg);
   opacity: 1;
+  -webkit-transition: all 0.6s cubic-bezier(0.24, 0.69, 0.57, 0.95);
+  transition: all 0.6s cubic-bezier(0.24, 0.69, 0.57, 0.95);
 }
 
 .App .App-main .tim28 .tim29 .tim146 .tim147 .tim148 .tim149 .tim150 .tim151:hover::before {
-  -webkit-transform: translate(480px, 0px) skewX(-15deg);
-          transform: translate(480px, 0px) skewX(-15deg);
+  -webkit-transform: translate(400px, 0px) skewX(-15deg);
+          transform: translate(400px, 0px) skewX(-15deg);
   opacity: .6;
+  -webkit-transition: all 0.6s cubic-bezier(0.24, 0.69, 0.57, 0.95);
+  transition: all 0.6s cubic-bezier(0.24, 0.69, 0.57, 0.95);
 }
 
 .App .App-main .tim28 .tim29 .tim146 .tim147 .tim148 .tim149 .tim150 .tim154 {
@@ -1098,6 +1099,7 @@ body {
   border-radius: 10px;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
+  overflow: hidden;
   cursor: pointer;
 }
 
