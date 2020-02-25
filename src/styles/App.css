@@ -1099,7 +1099,6 @@ body {
   border-radius: 10px;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
-  overflow: hidden;
   cursor: pointer;
 }
 
